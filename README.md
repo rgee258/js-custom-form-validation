@@ -14,4 +14,4 @@ The custom form checks for proper inputs and removes the error denoted red styli
 ## Useful References
 
 *[Form Validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
-*[Constraint Validation]https://developer.mozilla.org/en-US/docs/Web/API/Constraint_validation
+*[Constraint Validation](https://developer.mozilla.org/en-US/docs/Web/API/Constraint_validation)
