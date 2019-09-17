@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+#custom-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+#custom-form input[type='text'], #custom-form input[type='email'] {
+  width: 100%;
+  text-align: center;
+}
+
+input:invalid {
+  border: 2px solid red;
+  background-color: #fce8e8;
+}

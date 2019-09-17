@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Form</title>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+       <header>
+        <h1>Custom Form</h1>
+      </header>
+      <form id="custom-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <label for="email-confirmation">Email Confirmation</label>
+        <input type="email" id="email-confirmation" required>
+        <label for="country">Country</label>
+        <!-- Swapped \- for \u002d according to HTML escapes -->
+        <input type="text" id="country" required pattern="[A-Z]([A-Za-z]| (?! )|\u002d(?!\u002d))+[a-z]" minlength="4">
+        <label for="zip-code">Zip Code</label>
+        <input type="text" id="zip-code" required pattern="\d{5}">
+        <label for="password">Password</label>
+        <input type="text" id="password" required pattern="[A-Za-z0-9]+" minlength="8">
+        <label for="password-confirmation">Password Confirmation</label>
+        <input type="text" id="password-confirmation" required pattern="[A-Za-z0-9]+" minlength="8">
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
